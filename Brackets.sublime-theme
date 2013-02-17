@@ -10,9 +10,9 @@
         "layer0.texture": "Theme - Brackets/Brackets/tabset-background.png",
         "layer0.inner_margin": [1, 7],
         "layer0.opacity": 1.0,
-        "content_margin": [-4, 0, -4, 3],
+        "content_margin": [-4, 0, -4, 1],
         "tab_overlap": 5,
-        "tab_width": 180,
+        "tab_width": 255,
         "tab_min_width": 45,
         "tab_height": 37,
         "mouse_wheel_switch": false
@@ -87,7 +87,7 @@
         "layer0.texture": "Theme - Brackets/Brackets/tab-close.png",
         "layer0.opacity": 1.0
     },
-    // Tab dirty button
+    /* Tab dirty button
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
@@ -109,7 +109,8 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
         "layer0.texture": "Theme - Brackets/Brackets/tab-dirty.png"
     },
-    // Tab highlight button
+    */
+    /* Tab highlight button
     {
         "class": "tab_close_button",
         "settings": ["highlight_modified_tabs"],
@@ -122,6 +123,7 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
         "layer0.texture": "Theme - Brackets/Brackets/tab-highlight.png"
     },
+    */
     // Tab close button hover
     {
         "class": "tab_close_button",
@@ -156,6 +158,18 @@
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "fg": [34, 34, 34]
     },
+    {
+        "class": "tab_label",
+        "settings": ["highlight_modified_tabs"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "fg": [241, 137, 0, 128]
+    },
+    {
+        "class": "tab_label",
+        "settings": ["highlight_modified_tabs"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+        "fg": [241, 137, 0]
+    },
 
 //
 // FOLD BUTTONS
@@ -171,7 +185,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Brackets/Brackets/fold-open.png"
+        "layer0.texture": "Theme - Brackets/Brackets/fold-open-code.png"
     },
 
 //
@@ -292,7 +306,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [255, 255, 255],
+        "layer0.tint": [248, 248, 248],
         "layer0.opacity": 1.0
     },
 
@@ -303,7 +317,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [189, 189, 189]
+        "border_color": [228, 228, 228]
     },
 
 //
@@ -312,7 +326,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [0, 0, 0, 35]
+        "viewport_color": [210, 220, 248, 128]
     },
 
 //
@@ -327,16 +341,12 @@
     // Text field labels
     {
         "class": "label_control",
-        "parents": [{"class": "panel_control"}],
-        "shadow_color": [250, 250, 250],
-        "shadow_offset": [0, 1]
+        "parents": [{"class": "panel_control"}]
     },
     // Button labels
     {
         "class": "label_control",
-        "parents": [{"class": "button_control"}],
-        "shadow_color": [245, 245, 245],
-        "shadow_offset": [0, 1]
+        "parents": [{"class": "button_control"}]
     },
 
 //
@@ -378,9 +388,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [138, 138, 138],
-        "shadow_color": [239, 239, 239],
-        "shadow_offset": [0, 1]
+        "color": [138, 138, 138]
     },
 
 //
@@ -399,8 +407,8 @@
     {
         "class": "sidebar_tree",
         "row_padding": [8, 5],
-        "indent": 15,
-        "indent_offset": 15,
+        "indent": 12,
+        "indent_offset": 12,
         "indent_top_level": false
     },
     // Sidebar rows
@@ -566,7 +574,7 @@
         "layer0.texture": "Theme - Brackets/Brackets/panel-background.png",
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
-        "content_margin": [2, 3, 2, 1]
+        "content_margin": [4, 4, 4, 1]
     },
     // Quick panel background
     {
