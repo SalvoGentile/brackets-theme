@@ -1,6 +1,6 @@
 # Brackets Theme
 
-A custom UI theme for Sublime Text 2 inspired by the Brackets Editor based on Soda Theme by Ian Hill (http://buymeasoda.com/)
+A custom UI theme for Sublime Text 2 inspired by the Brackets Editor based on [Soda Theme by Ian Hill](http://buymeasoda.com/).
 
 
 ## Design
@@ -56,6 +56,8 @@ Brackets Theme has been designed to take advantage of retina resolution (high-dp
 ### Syntax Highlighting Colour Schemes
 
 The Brackets screenshot uses the [Br4ckets Color Scheme](https://github.com/l4ci/Br4ckets-Theme).
+
+![Br4ckets Color Scheme](https://github.com/l4ci/Br4ckets-Theme/raw/master/Images/Br4ckets-Day.png)
 
 If you'd like to use the syntax highlighting schemes shown in the screenshots: 
 
