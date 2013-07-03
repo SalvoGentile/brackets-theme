@@ -5,7 +5,7 @@ A custom UI theme for Sublime Text 2 inspired by the Brackets Editor based on [S
 
 ## Design
 
-![Brackets Theme]()
+![Brackets Theme](https://github.com/SalvoGentile/brackets-theme/raw/master/Images/Brackets.png)
 
 
 ## Installation
