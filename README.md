@@ -1,16 +1,16 @@
 # Brackets Theme
 
-A custom UI theme for Sublime Text 2 inspired by the Brackets Editor based on [Soda Theme by Ian Hill](http://buymeasoda.com/).
+Custom UI theme for _Sublime Text_ inspired by the _Brackets_ Editor. It is based on [Soda Theme](http://buymeasoda.com/) by Ian Hill.
 
 
 ## Design
 
-![Brackets Theme](https://github.com/SalvoGentile/brackets-theme/raw/master/Images/Brackets.png)
+![Brackets Theme](https://github.com/SalvoGentile/brackets-theme/raw/master/Resources/Images/Brackets.png)
 
 
 ## Installation
 
-Soda theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text 2.
+This theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text.
 
 ### Using Sublime Package Control
 
@@ -28,16 +28,17 @@ While inside the `Packages` directory, clone the theme repository using the comm
 
 ### Download Manually
 
-* Download the files using the GitHub .zip download option
-* Unzip the files and rename the folder to `Theme - Brackets`
-* Copy the folder to your Sublime Text 2 `Packages` directory
+* Download the files using the GitHub .zip download option;
+* Unzip the files and rename the folder to `Theme - Brackets`;
+* Copy the folder to your Sublime Text `Packages` directory.
+
 
 ## Activating the theme
 
 To configure Sublime Text 2 to use the theme:
 
-* Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
-* Add (or update) your theme entry to be `"theme": "Brackets.sublime-theme"`
+* Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`;
+* Add (or update) your theme entry to be `"theme": "Brackets.sublime-theme"`.
 
 ### Example User Settings
 
@@ -45,11 +46,6 @@ To configure Sublime Text 2 to use the theme:
         "theme": "Brackets.sublime-theme"
     }
 
-## Additional Features
-
-### Retina Resolution UI
-
-Brackets Theme has been designed to take advantage of retina resolution (high-dpi) displays.
 
 ## Bonus Options
 
@@ -59,15 +55,16 @@ The Brackets screenshot uses the [Br4ckets Color Scheme](https://github.com/l4ci
 
 ![Br4ckets Color Scheme](https://github.com/l4ci/Br4ckets-Theme/raw/master/Images/Br4ckets-Day.png)
 
-If you'd like to use the syntax highlighting schemes shown in the screenshots: 
+If you'd like to use the syntax highlighting schemes shown in the screenshots:
 
-* Download [the scheme here](https://github.com/l4ci/Br4ckets-Theme/archive/master.zip)
-* Unzip and place the extracted `tmtheme` files in the Sublime Text 2 `Packages/User` folder
-* Enable the colour scheme via `Preferences -> Color Scheme -> User`
+* Download [the scheme here](https://github.com/l4ci/Br4ckets-Theme/archive/master.zip);
+* Unzip and place the extracted `tmtheme` files in the Sublime Text `Packages/User` folder;
+* Enable the colour scheme via `Preferences -> Color Scheme -> User`.
 
 ### Code Font
 
 The code font shown in the screenshot is [Source Code Pro](https://github.com/adobe/source-code-pro).
+
 
 ## License
 
