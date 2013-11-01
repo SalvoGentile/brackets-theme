@@ -402,7 +402,7 @@
         "layer0.texture": "Theme - Brackets/Brackets/sidebar-bg.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1, 2, 1],
-        "content_margin": [0, 8, 0, 0]
+        "content_margin": [0, 0, 0, 0]
     },
     // Sidebar tree
     {
