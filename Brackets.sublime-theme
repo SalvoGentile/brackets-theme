@@ -890,6 +890,32 @@
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Brackets/Brackets/icon-highlight-on.png"
-    }
+    },
+
+//
+// DIALOG
+//
+
+    {
+        "class": "dialog",
+        "layer0.tint": [238, 238, 238],
+        "layer0.opacity": 1.0
+    },
+
+//
+// PROGRESS BAR
+//
+
+    {
+        "class": "progress_bar_control",
+        "layer0.tint": [148, 163, 168],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "progress_gauge_control",
+        "layer0.tint": [70, 160, 225],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
 
 ]
