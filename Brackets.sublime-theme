@@ -146,12 +146,12 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [164, 164, 164]
+        "fg": [221, 221, 221]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "fg": [128, 128, 128]
+        "fg": [153, 153, 153]
     },
     {
         "class": "tab_label",
@@ -415,9 +415,9 @@
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.texture": "Theme - Brackets/Brackets/sidebar-row-selected-with-arrow.png",
+        "layer0.texture": "Theme - Brackets/Brackets/sidebar-row-selected.png",
         "layer0.opacity": 0.0,
-        "layer0.inner_margin": [10, 1]
+        "layer0.inner_margin": [1, 1]
     },
     // Sidebar row selected
     {
@@ -890,32 +890,6 @@
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Brackets/Brackets/icon-highlight-on.png"
-    },
-
-//
-// DIALOG
-//
-
-    {
-        "class": "dialog",
-        "layer0.tint": [238, 238, 238],
-        "layer0.opacity": 1.0
-    },
-
-//
-// PROGRESS BAR
-//
-
-    {
-        "class": "progress_bar_control",
-        "layer0.tint": [148, 163, 168],
-        "layer0.opacity": 1.0
-    },
-    {
-        "class": "progress_gauge_control",
-        "layer0.tint": [70, 160, 225],
-        "layer0.opacity": 1.0,
-        "content_margin": [0, 6]
-    },
+    }
 
 ]
