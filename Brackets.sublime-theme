@@ -146,12 +146,12 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [221, 221, 221]
+        "fg": [164, 164, 164]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "fg": [153, 153, 153]
+        "fg": [128, 128, 128]
     },
     {
         "class": "tab_label",
