@@ -415,9 +415,9 @@
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.texture": "Theme - Brackets/Brackets/sidebar-row-selected.png",
+        "layer0.texture": "Theme - Brackets/Brackets/sidebar-row-selected-with-arrow.png",
         "layer0.opacity": 0.0,
-        "layer0.inner_margin": [1, 1]
+        "layer0.inner_margin": [10, 1]
     },
     // Sidebar row selected
     {
